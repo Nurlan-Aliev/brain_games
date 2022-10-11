@@ -5,3 +5,5 @@
 
 
 Установка, запуск игры brain-even. Пример с успешным прохождением игры и поражением https://asciinema.org/a/lCaiqVyA4RdZTaVodSb2uhV6l
+
+Демонстрация игры brain-calc. https://asciinema.org/a/ksdUAqMhhmU8ac3GlGzlFNybi
