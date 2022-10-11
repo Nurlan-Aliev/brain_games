@@ -3,21 +3,20 @@ import prompt
 
 
 def main():
-    print('Welcome to the Brain Games!')
     welcome_user()
-    games()
+    games_even()
 
 
 def welcome_user():
+    print('Welcome to the Brain Games!')
     global name
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
 
 
-def games():
+def games_even():
     print('Answer "yes" if the number is even, otherwise answer "no".')
-    i = 0
-    while i < 3:
+    for i in range(3)
         number = randint(0, 100)
         print(f'Question: {number} ')
         print('Your answer: ', end='')
@@ -31,7 +30,6 @@ def games():
             print(wrong, correct)
             print(f"Let's try again, {name}!")
             return
-        i += 1
     print(f'Congratulations, {name}!')
 
 
