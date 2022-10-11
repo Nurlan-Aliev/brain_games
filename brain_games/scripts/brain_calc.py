@@ -31,13 +31,12 @@ def games_calc():
         if question == multiplication:
             print(f'Question: {num1} * {num2}')
         print('Your answer: ', end='')
-        user_answer = int(input())
-        wrong = f"'{user_answer}' is wrong answer ;(."
-        correct = f"Correct answer was '{question}'."
-        if question == user_answer:
+        user_answer = input()
+        if str(question) == user_answer:
             print('Correct!')
         else:
-            print(wrong, correct)
+            print(f"'{user_answer}' is wrong answer ;(.")
+            print(f"Correct answer was '{question}'.")
             print(f"Let's try again, {name}!")
             return
     print(f'Congratulations, {name}!')

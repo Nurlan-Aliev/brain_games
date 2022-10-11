@@ -16,18 +16,17 @@ def welcome_user():
 
 def games_even():
     print('Answer "yes" if the number is even, otherwise answer "no".')
-    for i in range(3)
+    for i in range(3):
         number = randint(0, 100)
         print(f'Question: {number} ')
         print('Your answer: ', end='')
         user_answer = input()
         correct_answer = 'yes' if number % 2 == 0 else 'no'
-        wrong = f"'{user_answer}' is wrong answer ;(."
-        correct = f"Correct answer was '{correct_answer}'."
         if user_answer == correct_answer:
             print('Correct!')
         else:
-            print(wrong, correct)
+            print(f"'{user_answer}' is wrong answer ;(.")
+            print(f"Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {name}!")
             return
     print(f'Congratulations, {name}!')
