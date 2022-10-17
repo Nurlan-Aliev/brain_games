@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c60c4fd-7f43-4d49-9421-f0d138d4035a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/brain_games/games/calc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/brain_games/scripts/brain_calc.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/scripts/brain_calc.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/brain_games/scripts/brain_even.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/scripts/brain_even.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/brain_games/scripts/brain_gcd.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/scripts/brain_gcd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brain_games/scripts/brain_prime.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/scripts/brain_prime.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brain_games/scripts/brain_progression.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/scripts/brain_progression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/hexlet-code-0.1.0.tar.gz" beforeDir="false" afterPath="$PROJECT_DIR$/dist/hexlet-code-0.1.0.tar.gz" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +21,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2GD0flntHNe0uXZ8xvHRaVyubsY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -125,5 +126,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/brain_games/scripts/brain_even.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
