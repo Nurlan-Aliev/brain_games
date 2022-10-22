@@ -38,6 +38,8 @@ python3 -m pip install --user dist/*.whl
 ```
 
 ## Start Game
+
+To start, enter the name of the game
 ```commandline
 $ brain-even
 $ brain-calc
