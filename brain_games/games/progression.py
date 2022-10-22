@@ -7,10 +7,10 @@ MIN_LENGTH = 5
 MAX_LENGTH = 10
 LOST_CHAR_FROM = 4
 LOST_CHAR_TO = -5
-CONDITIONS = 'What number is missing in the progression?'
+TASK = 'What number is missing in the progression?'
 
 
-def progression():
+def get_round_data():
     number_of_start = randint(START_RANGE, END_RANGE)
     len_progression = randint(MIN_LENGTH, MAX_LENGTH)
     step_progression = randint(START_RANGE, END_RANGE)

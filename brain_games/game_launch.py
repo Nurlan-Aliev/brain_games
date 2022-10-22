@@ -4,14 +4,14 @@ from prompt import string
 GAME_ROUNDS = 3
 
 
-def game_launch(conditions, logic):
+def game_launch(game):
     print('Welcome to the Brain Games!')
     user_name = string('May I have your name? ')
     print(f'Hello, {user_name}!')
-    print(conditions)
+    print(game.TASK)
     for i in range(GAME_ROUNDS):
-        correct_answer = logic()
-        user_answer = string('Your answer: ')
+        correct_answer = game.get_round_data()
+        user_answer = string('Your answer: ').lower()
 
         if user_answer == str(correct_answer):
             print('Correct')

@@ -3,10 +3,10 @@ from random import randint
 
 START_RANGE = 1
 END_RANGE = 50
-CONDITIONS = 'What is the result of the expression?'
+TASK = 'What is the result of the expression?'
 
 
-def calc():
+def get_round_data():
     first_num = randint(1, 50)
     second_num = randint(1, 50)
     plus = first_num + second_num
