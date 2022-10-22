@@ -3,7 +3,7 @@ from random import randint
 
 START_RANGE = 2
 END_RANGE = 50
-TASK = 'Answer "yes" if given number is prime. Otherwise answer "no"'
+TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def get_round_data():
