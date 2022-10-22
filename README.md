@@ -19,19 +19,19 @@
 | 5   | brain-progression |          What number is missing in the progression?           |
 
 ## Installation
-Clone the repository and install manually
+Clone the repository and install manually.
 ```commandline
 $ git clone https://github.com/Nurlan-Aliev/python-project-lvl1.git
 $ cd python-project-lvl1
 ```
 
-#### install using poetry
+#### Install using poetry
 ```commandline
 $ poetry build
 $ python3 -m pip install --user dist/*.whl
 ```
 
-#### install using pip
+#### Install using pip
 ```
 python3 -m build
 python3 -m pip install --user dist/*.whl
@@ -39,7 +39,7 @@ python3 -m pip install --user dist/*.whl
 
 ## Start Game
 
-To start, enter the name of the game
+To start, enter the name of the game.
 ```commandline
 $ brain-even
 $ brain-calc
