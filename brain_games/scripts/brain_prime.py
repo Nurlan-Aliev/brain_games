@@ -1,9 +1,10 @@
+#!/usr/bin/env python3
 from brain_games.game_launch import game_launch
-from brain_games.games.prime import prime, CONDITIONS
+import brain_games.games.prime
 
 
 def main():
-    game_launch(CONDITIONS, prime)
+    game_launch(brain_games.games.prime)
 
 
 if __name__ == '__main__':
