@@ -4,10 +4,44 @@
 <a href="https://codeclimate.com/github/Nurlan-Aliev/python-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/f787b300615a3ec8be61/maintainability" /></a>
 
 
-brain-even: Установка, запуск игры. Демонстрация игры с победой и поражением https://asciinema.org/a/lCaiqVyA4RdZTaVodSb2uhV6l
+[![asciicast](https://asciinema.org/a/Vf3pirDl9ZBjQWhkV5jxMaEYO.svg)](https://asciinema.org/a/Vf3pirDl9ZBjQWhkV5jxMaEYO)
 
-brain-calc. Демонстрация игры с победой и поражением. https://asciinema.org/a/vSO1eGTM9hhd9TjqilWP5bk7R
+# Welcome to the Brain Games!
 
-brain-gcd.  Демонстрация игры с победой и поражением. https://asciinema.org/a/g1yS9HrrutlZznKS5k3kr5Tqr
+## Instruction
 
-brain-progression. Демонстрация игры с победой и поражением. https://asciinema.org/a/JR9YWSzkEDqQAByf7V8HeF4Q3
+|     |       Games       |                          Description                          |
+|:----|:-----------------:|:-------------------------------------------------------------:|
+| 1   |    brain-even     |  Answer "yes" if the number is even, otherwise answer "no".   |
+| 2   |    brain-calc     |             What is the result of the expression?             |
+| 3   |     brain-gcd     |      Find the greatest common divisor of given numbers.       |
+| 4   |    brain-prime    | Answer "yes" if given number is prime. Otherwise answer "no". |
+| 5   | brain-progression |          What number is missing in the progression?           |
+
+## Installation
+Clone the repository and install manually
+```commandline
+$ git clone https://github.com/Nurlan-Aliev/python-project-lvl1.git
+$ cd python-project-lvl1
+```
+
+#### install using poetry
+```commandline
+$ poetry build
+$ python3 -m pip install --user dist/*.whl
+```
+
+#### install using pip
+```
+python3 -m build
+python3 -m pip install --user dist/*.whl
+```
+
+## Start Game
+```commandline
+$ brain-even
+$ brain-calc
+$ brain-gcd
+$ brain-prime
+$ brain-progression
+```
