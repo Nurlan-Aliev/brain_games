@@ -9,6 +9,6 @@ TASK = 'Find the greatest common divisor of given numbers.'
 def get_round_data():
     first_number = randint(START_RANGE, END_RANGE)
     second_number = randint(START_RANGE, END_RANGE)
-    print(f'Question: {first_number} {second_number} ')
+    question = f'Question: {first_number} {second_number} '
     correct_answer = math.gcd(first_number, second_number)
-    return correct_answer
+    return question, correct_answer

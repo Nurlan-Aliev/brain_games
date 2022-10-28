@@ -7,11 +7,11 @@ TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def get_round_data():
-    is_prime = randint(START_RANGE, END_RANGE)
-    print(f'Question: {is_prime}')
-    for index in range(START_RANGE, round(is_prime / 2) + 1):
-        if is_prime % index == 0:
+    number = randint(START_RANGE, END_RANGE)
+    question = f'Question: {number}'
+    for index in range(START_RANGE, round(number / 2) + 1):
+        if number % index == 0:
             correct_answer = 'no'
-            return correct_answer
+            return question, correct_answer
     correct_answer = 'yes'
-    return correct_answer
+    return question, correct_answer

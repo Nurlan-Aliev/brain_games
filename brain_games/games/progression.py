@@ -26,5 +26,5 @@ def get_round_data():
     for char in list_of_number:
         string_of_number += str(char) + ' '
     string_of_number = string_of_number.strip()
-    print(f'Question: {string_of_number} ')
-    return correct_answer
+    question = f'Question: {string_of_number} '
+    return question, correct_answer

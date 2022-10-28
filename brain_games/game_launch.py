@@ -10,9 +10,9 @@ def game_launch(game):
     print(f'Hello, {user_name}!')
     print(game.TASK)
     for i in range(GAME_ROUNDS):
-        correct_answer = game.get_round_data()
+        question, correct_answer = game.get_round_data()
+        print(question)
         user_answer = string('Your answer: ').lower()
-
         if user_answer == str(correct_answer):
             print('Correct')
         else:

@@ -7,5 +7,5 @@ def main():
     game_launch(brain_games.games.calc)
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
