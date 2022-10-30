@@ -4,9 +4,15 @@
 <a href="https://codeclimate.com/github/Nurlan-Aliev/python-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/f787b300615a3ec8be61/maintainability" /></a>
 
 
-[![asciicast](https://asciinema.org/a/Vf3pirDl9ZBjQWhkV5jxMaEYO.svg)](https://asciinema.org/a/Vf3pirDl9ZBjQWhkV5jxMaEYO)
-
 # Welcome to the Brain Games!
+
+## Example of starting a game with a player's victory
+[![asciicast](https://asciinema.org/a/fxdk4s1c7cbKP76PAFs16xy6G.svg)](https://asciinema.org/a/fxdk4s1c7cbKP76PAFs16xy6G)
+
+## An example of starting a game with a player defeat
+
+[![asciicast](https://asciinema.org/a/33dANygrwijV0FJJrldLRID1H.svg)](https://asciinema.org/a/33dANygrwijV0FJJrldLRID1H)
+
 
 ## Instruction
 
