@@ -10,21 +10,25 @@ LOST_CHAR_TO = -5
 TASK = 'What number is missing in the progression?'
 
 
+def make_progression(start, end, step):
+    list_of_number = []
+
+    while start < end:
+        list_of_number.append(str(start))
+        start += step
+
+    lost = randint(LOST_CHAR_TO, LOST_CHAR_FROM)
+    lost_char = list_of_number[lost]
+    list_of_number[lost] = '..'
+    string_of_number = ' '.join(list_of_number)
+    return string_of_number, lost_char
+
+
 def get_round_data():
     number_of_start = randint(START_RANGE, END_RANGE)
     len_progression = randint(MIN_LENGTH, MAX_LENGTH)
     step_progression = randint(START_RANGE, END_RANGE)
     len_progression = number_of_start + len_progression * step_progression
-    list_of_number = []
-    while number_of_start < len_progression:
-        list_of_number.append(number_of_start)
-        number_of_start += step_progression
-    string_of_number = ''
-    lost_char = randint(LOST_CHAR_TO, LOST_CHAR_FROM)
-    correct_answer = list_of_number[lost_char]
-    list_of_number[lost_char] = '..'
-    for char in list_of_number:
-        string_of_number += str(char) + ' '
-    string_of_number = string_of_number.strip()
+    string_of_number, correct_answer = make_progression(number_of_start, len_progression, step_progression)
     question = f'Question: {string_of_number} '
     return question, correct_answer

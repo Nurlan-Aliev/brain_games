@@ -9,11 +9,17 @@ TASK = 'What is the result of the expression?'
 def get_round_data():
     first_num = randint(START_RANGE, END_RANGE)
     second_num = randint(START_RANGE, END_RANGE)
-    task = choice(['+', '-', '*'])
-    question = f'Question: {first_num} {task} {second_num}'
-    if task == '+':
+    operation = choice(['+', '-', '*'])
+    question = f'Question: {first_num} {operation} {second_num}'
+
+    if operation == '+':
         return question, first_num + second_num
-    if task == '-':
+
+    elif operation == '-':
         return question, first_num - second_num
-    if task == '*':
+
+    else:
         return question, first_num * second_num
+
+
+
