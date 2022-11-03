@@ -25,10 +25,11 @@ def make_progression(start, end, step):
 
 
 def get_round_data():
-    number_of_start = randint(START_RANGE, END_RANGE)
+    start = randint(START_RANGE, END_RANGE)
     len_progression = randint(MIN_LENGTH, MAX_LENGTH)
     step_progression = randint(START_RANGE, END_RANGE)
-    len_progression = number_of_start + len_progression * step_progression
-    string_of_number, correct_answer = make_progression(number_of_start, len_progression, step_progression)
-    question = f'Question: {string_of_number} '
+    len_progression = start + len_progression * step_progression
+    result = make_progression(start, len_progression, step_progression)
+    string_of_num, correct_answer = result
+    question = f'Question: {string_of_num} '
     return question, correct_answer

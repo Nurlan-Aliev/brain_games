@@ -20,6 +20,3 @@ def get_round_data():
 
     else:
         return question, first_num * second_num
-
-
-
