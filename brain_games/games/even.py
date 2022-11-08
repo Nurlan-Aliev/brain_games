@@ -5,9 +5,9 @@ END_RANGE = 50
 TASK = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def get_round_data():
+def get_round_data(lan):
     number = randint(START_RANGE, END_RANGE)
-    question = f'Question: {number}'
+    question = f'{lan}: {number}'
 
     if is_even(number):
         return question, 'yes'

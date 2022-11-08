@@ -6,19 +6,14 @@ END_RANGE = 50
 TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def get_round_data():
+def get_round_data(lan):
     number = randint(START_RANGE, END_RANGE)
-    question = f'Question: {number}'
-
-    for index in range(START_RANGE, round(number / 2) + 1):
-
-        if is_prime(number, index):
-            correct_answer = 'no'
-            return question, correct_answer
-
-    correct_answer = 'yes'
-    return question, correct_answer
+    question = f'{lan}: {number}'
+    return question, is_prime(number, START_RANGE)
 
 
-def is_prime(number, index):
-    return number % index == 0
+def is_prime(number, start):
+    for index in range(start, round(number / 2) + 1):
+        if number % index == 0:
+            return 'no'
+    return 'yes'

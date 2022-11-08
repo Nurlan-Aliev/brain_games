@@ -11,7 +11,7 @@ def game_launch(game):
     print(game.TASK)
 
     for i in range(GAME_ROUNDS):
-        question, correct_answer = game.get_round_data()
+        question, correct_answer = game.get_round_data('Question')
         print(question)
         user_answer = string('Your answer: ').lower()
 
