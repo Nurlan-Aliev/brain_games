@@ -6,6 +6,7 @@ authors = ["Aliev Nurlan <nualiev420@gmail.com>"]
 readme = "README.md"
 packages = [{include = "brain_games"}]
 repository = "https://github.com/Nurlan-Aliev/python-project-lvl1"
+classifiers = ["Topic :: Games :: Puzzle Games"]
 
 
 [tool.poetry.dependencies]

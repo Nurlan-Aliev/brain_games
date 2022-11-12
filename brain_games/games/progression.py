@@ -23,12 +23,12 @@ def make_progression(start, end, step, lost):
     return string_of_number, lost_char
 
 
-def get_round_data(lan):
+def get_round_data():
     start = randint(START_RANGE, END_RANGE)
     end = randint(MIN_LENGTH, MAX_LENGTH)
     step = randint(START_RANGE, END_RANGE)
     length = start + end * step
     lost = randint(LOST_CHAR_TO, LOST_CHAR_FROM)
     str_of_num, correct_answer = make_progression(start, length, step, lost)
-    question = f'{lan}: {str_of_num} '
+    question = f'{str_of_num} '
     return question, correct_answer
