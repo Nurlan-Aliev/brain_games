@@ -13,7 +13,7 @@ def get_round_data():
 
 def is_prime(number):
     if number == 0 or number == 1:
-        return 'yes'
+        return 'no'
     for index in range(2, round(number / 2) + 1):
         if number % index == 0:
             return 'no'
