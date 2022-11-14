@@ -7,11 +7,10 @@ TASK = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 def get_round_data():
     number = randint(START_RANGE, END_RANGE)
-    question = f'{number}'
 
     if is_even(number):
-        return question, 'yes'
-    return question, 'no'
+        return number, 'yes'
+    return number, 'no'
 
 
 def is_even(number):

@@ -30,5 +30,4 @@ def get_round_data():
     length = start + end * step
     lost = randint(LOST_CHAR_TO, LOST_CHAR_FROM)
     str_of_num, correct_answer = make_progression(start, length, step, lost)
-    question = f'{str_of_num} '
-    return question, correct_answer
+    return str_of_num, correct_answer
