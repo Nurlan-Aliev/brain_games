@@ -1,6 +1,5 @@
 from random import randint
 
-
 START_RANGE = 0
 END_RANGE = 50
 TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".'
@@ -11,7 +10,8 @@ def get_round_data():
     number = randint(START_RANGE, END_RANGE)
     if is_prime(number):
         return number, 'yes'
-    return number, 'no'
+    else:
+        return number, 'no'
 
 
 def is_prime(number):

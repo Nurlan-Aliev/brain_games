@@ -1,7 +1,7 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Nurlan-Aliev/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Nurlan-Aliev/python-project-lvl1/actions)
 
-<a href="https://codeclimate.com/github/Nurlan-Aliev/python-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/f787b300615a3ec8be61/maintainability" /></a>
+[![Maintainability](https://api.codeclimate.com/v1/badges/e1183cfd34e2bf005cfe/maintainability)](https://codeclimate.com/github/Nurlan-Aliev/python-project-lvl1/maintainability)
 
 
 # Welcome to the Brain Games!

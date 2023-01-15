@@ -17,7 +17,7 @@ def get_round_data():
 
 
 def calculate(num1, num2):
-    """Selects an operator calculates the result."""
+    """Selects an operator calculates the resultt"""
     choice_operation = choice(['+', '-', '*'])
     dict_operator = {'+': add, '-': sub, '*': mul}
     operation = dict_operator[choice_operation]
