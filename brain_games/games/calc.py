@@ -8,6 +8,7 @@ TASK = 'What is the result of the expression?'
 
 
 def get_round_data():
+    """Generate two random number."""
     first_num = randint(START_RANGE, END_RANGE)
     second_num = randint(START_RANGE, END_RANGE)
     operator, result = calculate(first_num, second_num)
@@ -16,6 +17,7 @@ def get_round_data():
 
 
 def calculate(num1, num2):
+    """Selects an operator calculates the result."""
     choice_operation = choice(['+', '-', '*'])
     dict_operator = {'+': add, '-': sub, '*': mul}
     operation = dict_operator[choice_operation]

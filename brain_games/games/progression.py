@@ -11,6 +11,7 @@ TASK = 'What number is missing in the progression?'
 
 
 def make_progression(start, end, step, lost):
+    """Creates a sequence and removes one 1 element."""
     numbers = []
 
     while start < end:
@@ -24,6 +25,7 @@ def make_progression(start, end, step, lost):
 
 
 def get_round_data():
+    """Calls make_progression giving it start finish and step values."""
     start = randint(START_RANGE, END_RANGE)
     end = randint(MIN_LENGTH, MAX_LENGTH)
     step = randint(START_RANGE, END_RANGE)

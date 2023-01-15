@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 from brain_games.game_launch import game_launch
-import brain_games.games.progression
+from brain_games.games import progression
 
 
 def main():
-    game_launch(brain_games.games.progression)
+    """Run game progression."""
+    game_launch(progression)
 
 
 if __name__ == '__main__':

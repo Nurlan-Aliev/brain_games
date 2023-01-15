@@ -5,6 +5,11 @@ GAME_ROUNDS = 3
 
 
 def game_launch(game):
+    """
+    Greets the player.
+    Asks for a name.
+    Checks if the answer is correct.
+    """
     print('Welcome to the Brain Games!')
     user_name = string('May I have your name? ')
     print(f'Hello, {user_name}!')

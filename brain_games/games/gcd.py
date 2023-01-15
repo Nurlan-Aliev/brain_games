@@ -7,6 +7,7 @@ TASK = 'Find the greatest common divisor of given numbers.'
 
 
 def get_round_data():
+    """Generates and returns two random numbers and their greatest divisor."""
     first_number = randint(START_RANGE, END_RANGE)
     second_number = randint(START_RANGE, END_RANGE)
     question = f'{first_number} {second_number} '
