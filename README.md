@@ -6,6 +6,15 @@
 
 # Welcome to the Brain Games!
 
+Five math console games.
+* brain-even - given a number, your task is to answer whether it is even or not
+* brain-calc - an example is given that needs to be solved
+* brain-gcd - find the common divisor of two numbers
+* brain-prime - given a number, it’s tedious to answer whether the number is prime or not
+* brain-progression - tedious find missing number</br>
+
+To win each game you need to answer 3 questions correctly
+
 ## Example of starting a game with a player's victory
 [![asciicast](https://asciinema.org/a/fxdk4s1c7cbKP76PAFs16xy6G.svg)](https://asciinema.org/a/fxdk4s1c7cbKP76PAFs16xy6G)
 
@@ -43,6 +52,17 @@ python3 -m build
 python3 -m pip install --user dist/*.whl
 ```
 
+## Docker
+
+This repository contains the Docker image for [Brain Games](https://hub.docker.com/repository/docker/nualiev/brain-games/general).
+
+### Instructions for use
+
+To run a Docker image, follow these steps:
+
+1. docker push nualiev/brain-games:latest
+2. docker run -it nualiev/brain-games
+
 ## Start Game
 
 To start, enter the name of the game.
@@ -53,3 +73,5 @@ $ brain-gcd
 $ brain-prime
 $ brain-progression
 ```
+
+
