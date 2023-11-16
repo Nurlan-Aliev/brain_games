@@ -10,8 +10,10 @@ from brain_games.games import even
 
 
 def main():
-    choices = [inquirer.List('choices', message='Choose one of the brain games:',
-                             choices=['calc', 'prime', 'progression', 'gcd', 'even'])]
+    choices = [inquirer.List('choices',
+                             message='Choose one of the brain games:',
+                             choices=['calc', 'prime',
+                                      'progression', 'gcd', 'even'])]
     answer = inquirer.prompt(choices)
 
     games = {
